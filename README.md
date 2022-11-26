@@ -9,7 +9,7 @@ the names of all teams competitors for all 11 countries
 the stage represents the order of the week (generally 34) in the year in which each team play one match
 the date of each match of all seasons and the season (the year) from 2008 to 2016
 the result of each match with the number of goals of both home and away team
-
+All metionned datasets and more can be found in the original database [here](https://www.kaggle.com/datasets/hugomathien/soccer?resource=download)
 ## Summary of Findings and Insights
 
 First we try to find the league/country that has the most goals in the first 3 stages of the season and for the first three season from 2008 to 2010, we used our cleaned dataframe matches_df after that we add a column containing the total number of goals, then we filter the dataframe using query method twice to get only desired stages and seasons, and as a final step we groupby league/country name and calculate the sum of total goals, just to find after checking that the England Premier League is the answer.
